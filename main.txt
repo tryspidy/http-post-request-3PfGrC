@@ -1,0 +1,10 @@
+POST http://localhost:60464/api/student?age=15 HTTP/1.1
+User-Agent: Fiddler
+Host: localhost:60464
+Content-Type: application/json
+Content-Length: 13
+
+{
+  id:1,
+  name:'Steve'
+}
